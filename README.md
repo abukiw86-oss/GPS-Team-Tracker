@@ -32,15 +32,13 @@ A professional, full-stack location-sharing ecosystem built with **Flutter**, **
   * **State Management:** Optimized lifting with `setState` & `GlobalKeys`
   * **Local Storage:** Hive (for session persistence)
   * **Communication:** `share_plus` & `clipboard` for group invitations
-
------
-
  
-##  Architecture Summary
-
-The app uses a **Dual-Stream Architecture**. Live coordinates are pushed to Firebase and streamed via `.onValue.listen()`. Simultaneously, the app polls a local PHP-based search index to provide rapid landmark discovery without incurring high Firebase costs.
+## some functions of the app(images)
 
 -----
+ <p align="center">
+<img width="300" height="400" alt="image" src="https://github.com/user-attachments/assets/b8db8ffb-6d9c-4b3b-9a33-1d57cc57ae7b" /><img width="300" height="400" alt="image" src="https://github.com/user-attachments/assets/c7c5d6ce-51cb-4fc7-9bee-76769cad5ba6" /><img width="300" height="400" alt="image" src="https://github.com/user-attachments/assets/03927244-db74-4819-afdd-5644440aeb90" />
+ </p>
 ## get the APP 
 #  GPS Team Tracker 
 
@@ -48,7 +46,7 @@ The app uses a **Dual-Stream Architecture**. Live coordinates are pushed to Fire
   <a href="https://github.com/abukiw86-oss/GPS-Team-Tracker/releases/latest">
     <img src="https://img.shields.io/badge/Download-APK-success?style=for-the-badge&logo=android&logoColor=white" />
   </a> 
-</p 
+</p >
 ## 👨‍💻 Developed By
 
 **Abubeker** 
