@@ -44,7 +44,11 @@ The app uses a **Dual-Stream Architecture**. Live coordinates are pushed to Fire
 ## get the APP 
 #  GPS Team Tracker 
 
-[![Release](https://img.shields.io/github/v/release/abukiw86-oss/?label=Download%20APK&style=for-the-badge&color=green)](https://github.com/abukiw86-oss/GPS-Team-Tracker/releases/latest)
+ <p align="center">
+  <a href="https://github.com/abukiw86-oss/GPS-Team-Tracker/releases/latest">
+    <img src="https://img.shields.io/badge/Download-APK-success?style=for-the-badge&logo=android&logoColor=white" />
+  </a> 
+</p 
 ## 👨‍💻 Developed By
 
 **Abubeker** 
