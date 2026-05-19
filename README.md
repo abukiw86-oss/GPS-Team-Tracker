@@ -2,7 +2,7 @@
 
 ### *Real-Time Location Intelligence & Team Coordination*
 
-A professional, full-stack location-sharing ecosystem built with **Flutter**, **Firebase**, and **PHP**. This application provides sub-second synchronization for group travelers, field teams, or friends, featuring live road-network routing and dynamic session management.
+A professional, full-stack location-sharing ecosystem built with **Flutter**, and  **Firebase**. This application provides sub-second synchronization for group travelers, field teams, or friends, featuring live road-network routing and dynamic session management.
 
 -----
 
@@ -11,8 +11,7 @@ A professional, full-stack location-sharing ecosystem built with **Flutter**, **
   * ** Sub-Second Sync:** Powered by Firebase Realtime Database for near-zero latency location updates across all peers.
   * ** Dynamic Session Logic:** Create or join private tracking "Rooms" using unique 6-digit alpha-numeric codes.
   * **🛣Smart Routing:** Integrated **OSRM (Open Source Routing Machine)** API to draw real-road paths between users, not just "as the crow flies."
-  * ** Hybrid Backend:** \* **Firebase:** Handles high-velocity ephemeral data (Live Lat/Lng).
-      * **PHP/MySQL:** Manages persistent metadata and landmark indexing.
+  * **  Backend:** \* **Firebase:** Handles high-velocity ephemeral data (Live Lat/Lng). 
   * ** Robust Permissions:** Handles complex Android/iOS location permission states (Denied, DeniedForever, WhileInUse) with automated user redirection.
 -----
 
@@ -29,8 +28,8 @@ A professional, full-stack location-sharing ecosystem built with **Flutter**, **
   * **Frontend:** Flutter (Dart)
   * **Map Engine:** [Flutter Map](https://pub.dev/packages/flutter_map) / OpenStreetMap
   * **Real-time Layer:** Firebase Realtime Database
-  * **State Management:** Optimized lifting with `setState` & `GlobalKeys`
-  * **Local Storage:** Hive (for session persistence)
+  * **State Management:** `provider`
+  * **Local Storage:** `shared_preferences`
   * **Communication:** `share_plus` & `clipboard` for group invitations
  
 ## some functions of the app(images)
