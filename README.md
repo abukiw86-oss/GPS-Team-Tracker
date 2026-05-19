@@ -4,15 +4,21 @@
 
 A professional, full-stack location-sharing ecosystem built with **Flutter**, and  **Firebase**. This application provides sub-second synchronization for group travelers, field teams, or friends, featuring live road-network routing and dynamic session management.
 
------
+---
 
 ##  Core Functionalities
 
-  * ** Sub-Second Sync:** Powered by Firebase Realtime Database for near-zero latency location updates across all peers.
-  * ** Dynamic Session Logic:** Create or join private tracking "Rooms" using unique 6-digit alpha-numeric codes.
-  * **🛣Smart Routing:** Integrated **OSRM (Open Source Routing Machine)** API to draw real-road paths between users, not just "as the crow flies."
-  * **  Backend:** \* **Firebase:** Handles high-velocity ephemeral data (Live Lat/Lng). 
-  * ** Robust Permissions:** Handles complex Android/iOS location permission states (Denied, DeniedForever, WhileInUse) with automated user redirection.
+## Sub-Second Sync:
+Powered by Firebase Realtime Database for near-zero latency location updates across all peers.
+## Dynamic Session Logic:
+Create or join private tracking "Rooms" using unique 6-digit alpha-numeric codes.
+## Smart Routing:
+Integrated **OSRM (Open Source Routing Machine)** API to draw real-road paths between users, not just "as the crow flies."
+## Backend:
+**Firebase:** Handles high-velocity ephemeral data (Live Lat/Lng). 
+## Robust Permissions:
+Handles complex Android/iOS location permission states (Denied, DeniedForever, WhileInUse) with automated user redirection.
+
 -----
 
 ## 📸Interface Preview
